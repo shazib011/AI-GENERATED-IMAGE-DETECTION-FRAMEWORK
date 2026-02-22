@@ -1,0 +1,15 @@
+torch
+torchvision
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+opencv-python
+pillow
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+python-dotenv

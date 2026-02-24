@@ -5,7 +5,7 @@ import base64, io
 import pandas as pd
 from pathlib import Path
 
-API_URL = "https://fog-injuries-cooling-constructed.trycloudflare.com/predict"
+API_URL = API_URL = st.secrets["API_URL"]
 LOG_PATH = Path("logs/predictions.csv")
 
 st.set_page_config(page_title="Deepfake Detection Dashboard", layout="wide")

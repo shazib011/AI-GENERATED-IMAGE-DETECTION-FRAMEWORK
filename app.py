@@ -25,7 +25,6 @@ with tab1:
         res = r.json()
 
         c1, c2, c3, c4 = st.columns(4)
-        st.json(res)
         c1.metric("Label", res["label"])
         c2.metric("Confidence", f'{res["confidence"]*100:.2f}%')
         c3.metric("Fake Prob", f'{res["prob_fake"]*100:.2f}%')
